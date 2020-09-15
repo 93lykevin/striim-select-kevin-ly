@@ -1,0 +1,32 @@
+.select-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.select-input-container {
+    display: flex;
+    justify-content: center;
+}
+
+.select-input {
+    width: 20rem;
+}
+
+.select-input:focus {
+    border: 1px solid #19bbff;
+}
+
+.select-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select-item {
+    width: 20rem;
+}
+
+.select-item:hover {
+    background-color: #c9efff;
+}
